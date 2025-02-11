@@ -1,0 +1,85 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 390px; 
+}
+/* .header{
+    position: relative;
+} */
+.nav {
+    background-color: #F5F5F7CC;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+   height: 48px;
+
+
+}
+
+.home {
+    display: flex;
+    gap: 20px;
+}
+
+.nav_icon {
+    width: 16px;
+    height: 19px;
+}
+
+.nav_search {
+    width: 16.05px;
+    height: 16.03px;
+}
+
+.nav_bag {
+    width: 15px;
+    height: 17px;
+}
+
+.nav_menu {
+    width: 18px;
+    height: 18px;
+}
+ .container{
+   text-align: center;
+  height: 73px;
+ }
+
+.nav_background {
+    position: relative;
+    text-align: center;
+}
+
+.nav_background img {
+    width: 100%; 
+    height: auto;
+}
+
+
+.iphone16{
+color: white;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+position: absolute;
+top: 350px;
+left: 75px;
+}
+.learn{
+    border: 1px solid #0071E3 ;
+    background-color: #0071E3;
+    color: white;
+    padding:8px 16px ;
+    border-radius: 999px;
+}
+    .buy{
+        border: 1px solid #2997FF ;
+        background-color: black;
+        color:#2997FF;
+        padding: 8px 20px ;
+        border-radius: 999px;
+    
+    }
+
+
