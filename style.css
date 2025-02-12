@@ -5,10 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     max-width: 390px; 
+    
 }
-/* .header{
-    position: relative;
-} */
+
 .nav {
     background-color: #F5F5F7CC;
     display: flex;
@@ -19,8 +18,10 @@
 
 }
 
+
 .home {
     display: flex;
+
     gap: 20px;
 }
 
@@ -45,11 +46,12 @@
 }
  .container{
    text-align: center;
-  height: 73px;
+
  }
 
 .nav_background {
     position: relative;
+    
     text-align: center;
 }
 
@@ -58,28 +60,76 @@
     height: auto;
 }
 
+.container_header{
+    padding: 20px;
+}
 
-.iphone16{
+.nav_title{
 color: white;
 text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 position: absolute;
 top: 350px;
 left: 75px;
+gap: 16px;
+/* border: 1px solid white; */
+padding: 15px;
+
 }
-.learn{
+
+.nav_learn{
     border: 1px solid #0071E3 ;
     background-color: #0071E3;
     color: white;
     padding:8px 16px ;
     border-radius: 999px;
+
 }
-    .buy{
+    .nav_buy{
         border: 1px solid #2997FF ;
         background-color: black;
         color:#2997FF;
-        padding: 8px 20px ;
+        padding: 8px 16px ;
         border-radius: 999px;
-    
     }
 
+    .nav_button{
+       
+      /* display: flex;
+      justify-content: center; */
+      gap: 12px;
+      padding: 10px;
+    }
+.page2{
+position: relative;
+text-align: center;
 
+
+
+}
+.page2_title{
+     color: white;
+    position: absolute;
+    top: 36px;
+    left: 75px;
+    /* border: 1px solid white; */
+    gap:16px;
+    padding: 15px;
+}
+
+.page2_button{
+    
+}
+.page2_learn{
+    border: 1px solid white;
+    border-radius: 999px;
+    padding: 8px 16px;
+}
+.page2_buy{
+    border: 1px solid white;
+    border-radius: 999px;
+    padding: 8px 16px;
+color: white;
+
+background: transparent;
+   
+}
