@@ -1,124 +1,151 @@
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 390px; 
-    
+    /* max-width: 390px; */
+   
 }
-
+ 
 .nav {
     background-color: #F5F5F7CC;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
    height: 48px;
-
-
+ 
+ 
 }
-
-
+ 
+ 
 .home {
     display: flex;
-
     gap: 20px;
 }
-
-.nav_icon {
+ 
+#icon-size{
     width: 16px;
     height: 19px;
 }
-
+.nav_icon {
+    border: 1px solid darkblue;
+    width: 49px;
+    height: 48px;
+   
+}
+ 
+ 
 .nav_search {
     width: 16.05px;
     height: 16.03px;
 }
-
+ 
 .nav_bag {
     width: 15px;
     height: 17px;
 }
-
+ 
 .nav_menu {
     width: 18px;
     height: 18px;
 }
  .container{
    text-align: center;
-
+ 
  }
-
+ 
 .nav_background {
-    position: relative;
-    
+    /* position: relative;
+    */
     text-align: center;
+    background-image: url(./images/navbackground.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 390px;
+   height: 500px;
 }
-
+ 
 .nav_background img {
-    width: 100%; 
+    width: 100%;
     height: auto;
 }
-
+ 
 .container_header{
     padding: 20px;
 }
+ 
 
 .nav_title{
 color: white;
 text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-position: absolute;
+display: flex;
+flex-direction: column;
+/* justify-content: center;  */
+
+
+/* top: 350px;
+left: 75px;
+gap: 16px; */
+
+/* position: absolute;
 top: 350px;
 left: 75px;
 gap: 16px;
-/* border: 1px solid white; */
-padding: 15px;
-
+padding: 15px; */
+ 
 }
-
+ 
 .nav_learn{
     border: 1px solid #0071E3 ;
     background-color: #0071E3;
     color: white;
     padding:8px 16px ;
     border-radius: 999px;
-
+ 
 }
     .nav_buy{
         border: 1px solid #2997FF ;
-        background-color: black;
+        background-color: transparent;
         color:#2997FF;
         padding: 8px 16px ;
         border-radius: 999px;
     }
-
+ 
     .nav_button{
        
-      /* display: flex;
-      justify-content: center; */
+      display: flex;
+      justify-content: center;
       gap: 12px;
       padding: 10px;
     }
 .page2{
-position: relative;
-text-align: center;
+/* position: relative; */
 
-
-
+    background-image: url( ./images/purple16.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    width: 390px;
+    height: 500px;
 }
-.page2_title{
+
+
+
+
+.page2_top-section{
      color: white;
-    position: absolute;
-    top: 36px;
-    left: 75px;
-    /* border: 1px solid white; */
-    gap:16px;
-    padding: 15px;
-}
-
-.page2_button{
+    /* position: absolute; */
+    padding-top: 36px;
+    padding-bottom: 20px;
+    border: 1px solid red;
     
 }
+
+.page2_top-section__title{
+    text-align: center;
+}
+
+
+ 
+
 .page2_learn{
     border: 1px solid white;
     border-radius: 999px;
@@ -128,9 +155,98 @@ text-align: center;
     border: 1px solid white;
     border-radius: 999px;
     padding: 8px 16px;
-    
-color: white;
-
-background: transparent;
+   
+ 
+    background: transparent;
    
 }
+/* .page3{
+    position: relative;
+ 
+ 
+   
+}
+.page3_imgs{
+    width: 100%;
+    height: auto;
+}
+.page3_ipad{
+position: absolute;
+  top: 36px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+}
+.page3_text{
+    margin-top: 20px;
+    text-align: center;
+    position: absolute;
+    top: 66px;
+    left: 50px;
+    right: 50px;
+  }
+  .page3_learn{
+    border-radius: 999px;
+    border: 1px solid #2997FF;
+    background: #0071E3;
+    color: white;
+    padding: 8px 16px;
+  }
+  .page3_buy{
+    border-radius: 999px;
+    border: 1px solid #2997FF;
+    padding: 8px 20px;
+    background-color: transparent;
+    color: #2997FF;
+}
+.page4{
+    text-align: center;
+    position: relative;
+   
+}
+.page4_airpod{
+    
+    color: white;
+   
+}
+.page4_airpod h1{
+   font-size: 30px;
+}
+.page4_airpod p{
+    font-size: 18px;
+}
+.page4_learn{
+    border-radius: 999px;
+    border: 1px solid #2997FF;
+    background: #0071E3;
+    color: white;
+    padding: 8px 16px;
+}
+.page4_buy{
+    border-radius: 999px;
+    border: 1px solid #2997FF;
+    padding: 8px 20px;
+    background-color: transparent;
+    color: #2997FF;
+}
+.page5{
+    text-align: center;
+    position: relative;
+}
+.page5_title{
+    position: absolute;
+    top: 46px;
+    left: 65px;
+  gap: 16px;
+  
+}
+.page5_{
+
+}
+
+.gradent{
+    color: reds;
+    background: linear-gradient(red
+    yellow green
+    );
+} */
