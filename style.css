@@ -339,3 +339,13 @@ top: 350px;
     border: 1px solid #2997FF;
     padding: 8px 20px;
 }
+
+.page10_top-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 480px;
+}
+    .page10_img_right{
+
+    }
