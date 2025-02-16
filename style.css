@@ -2,10 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* max-width: 390px; */
+    
    
 }
- 
+@media only screen and(min-width: 768px) {
+    .tablet{
+        display: flex;
+        flex-wrap: wrap;
+        /* gap:0 12px; */
+        margin-top: 50px;
+        
+
+    }
+    .position{
+        width: 48%;
+        height: 650px;
+    }
+}
+
 .nav {
     background-color: #F5F5F7CC;
     display: flex;
@@ -31,7 +45,7 @@
  
  .container{
    text-align: center;
- padding: 18px 31px;
+    padding: 18px 31px;
  }
  
 .page1{
@@ -40,7 +54,8 @@ background-size: cover;
 background-repeat: no-repeat;
 width: 100%;
 height: 500px;
-background-position: center;
+margin-bottom: 12px;
+/* background-position: center; */
 }
  
 
@@ -54,6 +69,7 @@ align-items: center;
 gap: 16px;
 position: relative;
 top: 350px;
+background-position: center;
 }
  
 .page1_learn_button{
@@ -87,6 +103,8 @@ top: 350px;
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
+    background-position: center;
+   margin-bottom: 12px;
 }
 .page2_top-section{
      color: white;
@@ -125,6 +143,8 @@ top: 350px;
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
+    background-position: center;
+    margin-bottom: 12px;
 }
 .page3_top-section{
     display: flex;
@@ -161,6 +181,8 @@ top: 350px;
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
+    background-position: center;
+    margin-bottom: 12px;
 
 }
 
@@ -203,6 +225,8 @@ top: 350px;
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
+    background-position: center;
+    margin-bottom: 12px;
 }
 .page5_icon{
     display: flex;
@@ -243,6 +267,8 @@ top: 350px;
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
+    background-position: center;
+    margin-bottom: 12px;
 }
 .page6_top-section{
     display: flex;
@@ -278,6 +304,9 @@ top: 350px;
     background-size: cover;
     width: 100%;
     height: 500px;
+    background-position: center;
+    margin-bottom: 12px;
+
 }
 .page7_top-section{
     display: flex;
@@ -300,6 +329,8 @@ top: 350px;
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
+    background-position: center;
+    margin-bottom: 12px;
 }
 .page8_top-section{
     display: flex;
@@ -323,6 +354,8 @@ top: 350px;
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
+    background-position: center;
+    margin-bottom: 12px;
 }
 .page9_top-section{
     display: flex;
@@ -345,7 +378,30 @@ top: 350px;
     justify-content: center;
     width: 100%;
     height: 480px;
+    
 }
-    .page10_img_right{
-
+.scroll{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 20px;
+    transition: all 8s linear;
+}
+.scroll__image{
+height: 533px;
     }
+
+    .page11_top-section{
+        display: flex;
+        justify-content: center;
+        /* width: 238px; */
+        height: 480px;
+        gap: 6px;
+        position: relative;
+        top: 12px; ;
+    }
+    
+    
+       
+        
+    
