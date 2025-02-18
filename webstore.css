@@ -38,9 +38,22 @@ box-sizing: border-box;
 
 }    
 .header_content-store{
-    background: linear-gradient(#0090F7, #BA62FC, #F2416B );
+    background: linear-gradient(to right, #0090F7, #BA62FC, #F2416B );
 width: fit-content;
 background-clip: text;
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;
+}
+.help_link{
+    color:#0066CC ;
+}
+.shopping_help{
+    display: flex;
+    gap: 16px;
+   
+}
+.shopping-help-img{
+    width: 35px;
+height: 35px;
+margin-right: 16px;
 }
