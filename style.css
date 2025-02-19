@@ -392,7 +392,6 @@ height: 533px;
         .tablet{
             display: flex;
             flex-wrap: wrap;
-            /* justify-content: space-between; */
             gap:12px;
             margin-top: 50px;
             

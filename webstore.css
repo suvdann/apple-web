@@ -32,8 +32,9 @@ box-sizing: border-box;
     display: flex;
     position: relative;
     left: 140px;
-    padding: 80px;
+    top: 80px;
     gap: 32px;
+    
 
 
 }    
@@ -56,4 +57,29 @@ background-clip: text;
     width: 35px;
 height: 35px;
 margin-right: 16px;
+}
+.product_list{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin: 140px;
+}
+.latest-gradent{
+    background: linear-gradient(to right, #0090F7, #BA62FC, #F2416B );
+    width: fit-content;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+   
+}
+.latest_top-title{
+    color:  #6E6E73;
+}
+.latest{
+    display: flex;
+    position: relative;
+    left: 140px;
+    top: 60px;
+    gap: 4px
 }
